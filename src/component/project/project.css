@@ -1,0 +1,55 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: rem;
+    width: 35rem;
+    height: 25rem;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.75);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 1rem;
+}
+
+.project-container h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.projectCard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    border-radius: 1rem;
+    height: 19rem;
+    width: 15rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.project-img {
+    border-radius: 1rem;
+    width: 15rem;
+    height: 12rem;
+}
+
+.project-title {
+    font-size: 1rem;
+    font-weight: 800;
+    width: 100%;
+}
+
+.project-desc {
+    width: 100%;
+    height: fit-content;
+    margin-top: -1rem;
+    font-size: 0.8rem;
+    color: rgb(176, 178, 180);
+}

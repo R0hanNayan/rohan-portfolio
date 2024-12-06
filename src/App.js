@@ -5,6 +5,7 @@ import HireMe from './component/hireme/HireMe';
 import Work from './component/work/Work';
 import Contact from './component/contact/Contact';
 import Wrapper from './util/Wrapper';
+import Project from './component/project/Project';
 
 function App() {
   return (
@@ -18,8 +19,7 @@ function App() {
         <div className='app-container2'>
           <div className='app-int2'>
             <Wrapper child={<Work />}/>
-            <About />
-            <About />
+            <Wrapper child={<Project />} />
           </div>
           <div className='app-int3'>
             <Wrapper child={<Contact />}/>
