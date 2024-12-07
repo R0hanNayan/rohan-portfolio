@@ -1,7 +1,7 @@
 import React from "react";
 import './github.css';
 
-const Stats = () => {
+const Github = () => {
     return (
         <div className="github-container">
             <div className="github">
@@ -17,4 +17,4 @@ const Stats = () => {
     )
 }
 
-export default Stats
+export default Github

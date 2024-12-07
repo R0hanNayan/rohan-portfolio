@@ -19,3 +19,19 @@
     width: 4rem;
     height: 4rem;
 }
+
+@media (max-width: 1024px) {
+    .tech-container {
+        flex-direction: row;
+        height: 7.5rem;
+        width: 35rem;
+        gap: 0.8rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .tech-container {
+        width: 35rem;
+        margin: 0 auto;
+    }
+}
