@@ -1,9 +1,8 @@
-.contact-container {
+.stats-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
     width: 19rem;
     height: 12rem;
     background: rgba( 0, 0, 0, 0.75 );
@@ -15,7 +14,12 @@
     color: white;
 }
 
-.contact-item img{
-    width: 3rem;
-    height: 3rem;
+.leetcode {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+.leetcode img{
+    width: 2.5rem;
+    height: 2.5rem;
 }

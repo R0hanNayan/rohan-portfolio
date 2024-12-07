@@ -5,26 +5,20 @@ body {
   height: 100%;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background-image: url('../public/assets/herobg.png')
 }
 
 .App {
-  display: flex;
-  flex-direction: row;
-  /* align-items: center; */
-  justify-content: center;
-}
-
-.app-mainContainner {
   position: absolute;
-  left: 15rem;
-  width: 100;
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  position: absolute;
+  left: 0;
   top: 50%;
   transform: translateY(-50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .app-container1 {
